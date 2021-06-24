@@ -1,0 +1,142 @@
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+body {
+    background-color: rgb(17, 6, 40);
+  }
+
+
+
+
+  body {
+    font-family: "Courier New", Courier, monospace;
+  }
+
+
+
+
+
+body { 
+  border: 1px solid rgb(17, 6, 40);
+  padding: 25px 50px 75px 100px;
+  background-color: rgb(17, 6, 40) ;
+}
+
+
+
+
+h2 {
+  width: 750px;
+  height: 150px;
+  text-align: justify;
+}
+
+
+
+
+h3 {
+  text-decoration: overline;
+}
+
+
+
+
+h4 {
+  text-shadow: 2px 2px 5px rgb(198, 172, 255);
+}
+
+
+
+
+
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+
+
+
+div.gallery {
+  border: 1px solid rgb(255, 1, 153);
+}
+
+div.gallery:hover {
+  border: 1px solid rgb(4, 255, 247);
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+      width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
